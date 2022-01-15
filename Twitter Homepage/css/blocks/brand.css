@@ -1,0 +1,12 @@
+.brand {
+    height: 28px;
+    filter: invert(99%) sepia(1%) saturate(499%) hue-rotate(220deg) brightness(109%) contrast(70%);
+    position: relative;
+    top: 0;
+    left: 12px;
+}
+
+.brand:hover{
+    filter: invert(72%) sepia(67%) saturate(5852%) hue-rotate(165deg) brightness(94%) contrast(101%);
+    cursor: pointer;
+}
