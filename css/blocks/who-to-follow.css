@@ -1,0 +1,39 @@
+.who-to-follow{
+    background: #f5f8fa;
+    border-radius: 15px;
+}
+
+.who-to-follow__item{
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6ecf0;
+}
+
+.who-to-follow__item:last-child{
+    border-bottom: none;
+}
+
+
+.who-to-follow__author-logo{
+    width: 49px;
+    height: 49px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.who-to-follow__author-slug{
+    
+}
+
+.who-to-follow__content{
+
+}
+
+.who-to-follow__heading{
+
+}
+
+.who-to-follow__button{
+
+}

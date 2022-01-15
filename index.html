@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/blocks/layout.css">
+    <link rel="stylesheet" href="./css/blocks/brand.css">
+    <link rel="stylesheet" href="./css/blocks/sidebar-menu.css">
+    <link rel="stylesheet" href="./css/blocks/tweet.css">
+    <link rel="stylesheet" href="./css/blocks/trends-for-you.css">
+    <link rel="stylesheet" href="./css/blocks/who-to-follow.css">
+    <title>Twitter Markup</title>
+</head>
+<body>
+    <div class="layout">
+        <!-- left sidebar -->
+        <div class="layout__left-sidebar"> 
+            <img src="./svg/twitter.svg" class="brand"> <!-- twitter logo -->
+            <br>
+            <br>
+            <div class="sidebar-menu"> 
+                <div class="sidebar-menu__item sidebar-menu__item--active">
+                    <img src="./svg/home.svg" class="sidebar-menu__item-icon">
+                    Home
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/explore.svg" class="sidebar-menu__item-icon">
+                    Explore
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/notifications.svg" class="sidebar-menu__item-icon">
+                    Notifications
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/messages.svg" class="sidebar-menu__item-icon">
+                    Messages
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/profile.svg" class="sidebar-menu__item-icon">
+                    Profile
+                </div>
+
+                <div class="sidebar-menu__item">
+                    <img src="./svg/more.svg" class="sidebar-menu__item-icon">
+                    More
+                </div>
+            </div>
+        </div>
+
+        <!-- main menu (the center of twitter) -->
+        <div class="layout__main"> 
+
+            <!-- 1st Tweet -->
+            <div class="tweet">
+                <img src="./images/profile-image-1.jpg" alt="" class="tweet__author-logo">
+            <div class="tweet__main">
+                <div class="tweet__header">
+                    <div class="tweet__author-name">
+                        Frank
+                    </div>
+                    <div class="tweet__author-slug">
+                        @frank.2002
+                    </div>
+                    <div class="tweet__publish-time">
+                        38m
+                    </div>
+                </div>
+
+                <div class="tweet__content">
+                    Thank you
+                </div>
+            </div>
+        </div>
+
+        <!-- 2nd Tweet -->
+        <div class="tweet">
+            <img src="./images/profile-image-2.png" alt="" class="tweet__author-logo">
+        
+            <div class="tweet__main">
+                <div class="tweet__header">
+                    <div class="tweet__author-name">
+                        Escanor
+                    </div>
+                    <div class="tweet__author-slug">
+                        @escanor1101
+                    </div>
+                    <div class="tweet__publish-time">
+                        9h
+                    </div>
+                </div>
+        
+                <div class="tweet__content">
+                    I am available on:
+                    <a target="_blank" href="https://www.google.com">https://www.google.com</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 3rd tweet -->
+        <div class="tweet">
+            <img src="./images/profile-image-3.jpg" alt="" class="tweet__author-logo">
+        
+            <div class="tweet__main">
+                <div class="tweet__header">
+                    <div class="tweet__author-name">
+                        richard
+                    </div>
+                    <div class="tweet__author-slug">
+                        @richardP
+                    </div>
+                    <div class="tweet__publish-time">
+                        2s
+                    </div>
+                </div>
+        
+                <div class="tweet__content">
+                    my videos are available on the following:
+                    <a target="_blank" href="https://www.youtube.com">https://www.youtube.com</a>
+                    <img class="tweet__image" src="./images/post-image-1.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+        <!-- right sidebar -->
+        <div class="layout__right-sidebar-container"> 
+            <div class="layout__right-sidebar">
+                <div class="trends-for-you">
+
+                    <div class="trends-for-you__item">
+                        <div class="trends-for-you__heading">
+                            Trends for You
+                        </div>
+                    </div>
+
+                    <div class="trends-for-you__item">
+                        <div class="trends-for-you__meta-information">
+                            Trending in India
+                        </div>
+                        <div class="trends-for-you__trend-name">
+                            #iphone12
+                        </div>
+                        <div class="trends-for-you__meta-information">
+                            155k Tweets
+                        </div>
+                    </div>
+
+                    <div class="trends-for-you__item">
+                        <div class="trends-for-you__meta-information">
+                            Trending in India
+                        </div>
+                        <div class="trends-for-you__trend-name">
+                            #Amazonprimeday
+                        </div>
+                        <div class="trends-for-you__meta-information">
+                            65k Tweets
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="who-to-follow">
+                    <div class="who-to-follow__item">
+                        <div class="who-to-follow__heading">
+                            Who to Follow
+                        </div>
+                    </div>
+
+                    <div class="who-to-follow__item">
+                        <img class="who-to-follow__author-logo" src="/images/profile-image-1.jpg" alt="">
+                        <div class="who-to-follow__content">
+                            <div>
+                                <div class="who-to-follow__author-name">
+                                    AP
+                                </div>
+                                <div class="who-to-follow_author-slug">
+                                    @AP
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+                
+
+                    <div class="who-to-follow__item">
+                        <img class="who-to-follow__author-logo" src="/images/profile-image-2.png" alt="">
+                        <div class="who-to-follow__content">
+                            <div>
+                                <div class="who-to-follow__author-name">
+                                    GG
+                                </div>
+                                <div class="who-to-follow_author-slug">
+                                    @GGrap
+                                </div>
+                            </div>
+                            <div class="who-to-follow__button">
+                                Follow
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

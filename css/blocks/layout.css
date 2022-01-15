@@ -1,0 +1,12 @@
+.layout{
+    display:grid;
+    grid-template-columns: 275px auto 350px; /*left column size, auto, right column size */ 
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.layout__right-sidebar{
+    position: fixed;
+    width: 350px;
+}
+
